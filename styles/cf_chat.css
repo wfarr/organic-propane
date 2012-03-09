@@ -23,6 +23,17 @@ div#last_message{
 /*  height: 10px ! important;*/
 display:none ! important;
 }
+
+#todays_transcript {
+  font-size: 12px;
+  font-weight: normal;
+  padding: 5px 0;
+  border-bottom: 1px solid gainsboro;
+  color: #666;
+  padding: 5px 0;
+  text-align: center !important;
+}
+
 div#clipper > div {
   display:none ! important;
 }
@@ -42,6 +53,10 @@ tbody#chat {
   margin:0px ! important;
   padding: 0px ! important;
   background-image:none ! important;
+}
+
+table.chat {
+  width: 100% !important;
 }
 
 div.Left div.col{
@@ -128,11 +143,10 @@ tr.message {
       ) ! important;
     border-top:1px solid white ! important;
     border-bottom: 1px solid #dedfe5 ! important;
-  width:100% ! important;
 }
 
 tr.message td {
-  border: 0 none transparent !important;
+  border: 0 solid transparent !important;
   background-color: transparent !important;
   padding: 10px !important;
   font-family: Helvetica !important;
@@ -145,6 +159,8 @@ tr.message td a.loaded {
   padding: 5px !important;
   /*-webkit-box-shadow: 0px 3px 5px #ccc !important;*/
   margin: 0 !important;
+  max-height: 460px !important;
+  max-width: 460px !important;
 }
 
 tr.message td a.loaded:hover {
@@ -154,8 +170,7 @@ tr.message td a.loaded:hover {
 }
 
 tr.message td a.loaded img {
-  max-height: 460px !important;
-  max-width: 460px !important;
+  max-width: 100% !important;
 }
 
 tr.message td a.youtube_video {
@@ -249,6 +264,16 @@ tr.timestamp_message {
     border-bottom: 1px solid #C5C8CF !important;
 }
 
+table.chat tr.timestamp_message td.date {
+  float: left !important;
+  min-width: 50px !important;
+  text-align: right !important;
+  vertical-align: middle;
+}
+
+table.chat tr.timestamp_message td.date span {
+  display: block !important;
+}
 
 tr.timestamp_message td {
   padding-bottom: 8px ! important;
