@@ -120,7 +120,7 @@ table.chat td.body span.star {
   margin: 0 !important;
   position: absolute !important;
   top: 7px;
-  left: 5px;
+  left: 19px;
 }
 table.chat td.body span.star a, table.chat td.body span.star strong {
   background-position: 0 1px !important;
@@ -179,7 +179,7 @@ tr.message td a.youtube_video {
 
 img.avatar {
   position: absolute;
-  left: 33px;
+  left: 46px;
   top: 12px;
   opacity: 1.0;
   border: 1px solid #ddd;
@@ -266,7 +266,7 @@ tr.timestamp_message {
 
 table.chat tr.timestamp_message td.date {
   float: left !important;
-  min-width: 50px !important;
+  min-width: 70px !important;
   text-align: right !important;
   vertical-align: middle;
 }
@@ -327,7 +327,7 @@ table.chat a.youtube_video:after {
 
 tr.message td.person {
   background-color: transparent ! important;
-  min-width: 50px !important;
+  min-width: 70px !important;
 }
 
 body{
